@@ -28,24 +28,22 @@ h3 {
 }
 
 hr {
-  border:dotted #EAF6F6 6px;
+  border:dotted #666666 6px;
   border-bottom:none;
   width: 4%;
-  margin: 100px auto
+  margin: 100px auto;
+  clear:both;
+
 }
 
-a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration:none;
-}
-a:hover{
-  color: #EAF6F6
-}
  p{
 line-height: 2
  }
+
+a {
+  text-decoration: none;
+  color: #66BFBF;
+}
 
 /*****************************Container Class*********************/
 .top-container {
@@ -104,8 +102,11 @@ line-height: 2
 .design-and-development-img {
   width: 25%;
   float: right;
-  margin-left: 30px
+  margin-left: 30px;
 }
+
+
+
 
   .btn {
   background: #11cdd4;
@@ -137,9 +138,19 @@ line-height: 2
   text-decoration: none;
 }
 
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration:none;
+}
+
+.footer-link:hover{
+  color: #EAF6F6
+}
+
 .copyright{
   color:#EAF6F6;
   font-size: 80%;
   padding: 20px 0px
 }
-/****************************ID.s***********************************************/
